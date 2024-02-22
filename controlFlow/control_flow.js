@@ -1,3 +1,4 @@
+// Defining variables and if else statement
 let userRole = "admin";
 let accessLevel;
 
@@ -10,6 +11,7 @@ if (userRole === "admin") {
 }
 console.log("Access Level:", accessLevel);
 
+// Defining variables and nested if...else
 let isLoggedIn = true;
 let userMessage;
 if (isLoggedIn) {
@@ -23,6 +25,7 @@ if (isLoggedIn) {
 }
 console.log("User Message:", userMessage);
 
+// Defining variables and switch statement
 let userType = "subscriber";
 let userCategory;
 switch (userType) {
@@ -40,6 +43,7 @@ switch (userType) {
 }
 console.log("User Category:", userCategory);
 
+// Ternary Operator
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
